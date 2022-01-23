@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
         <div>
             <nav className="navbar navbar-expand-sm bg-light">
-                <a className="navbar-brand text-dark" href="#">FakeShop</a>
+                <Link to='/' className="navbar-brand text-dark">FakeShop</Link>
             </nav>
         </div>
     )
