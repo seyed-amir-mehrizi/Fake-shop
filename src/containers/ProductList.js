@@ -1,9 +1,13 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
+import Product from './Product'
 
 function ProductList() {
+
+
     return (
-        <div>
-            <h1>ProductList</h1>
+        <div className='mt-2'>
+            <Product />
         </div>
     )
 }
